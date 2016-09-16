@@ -1,0 +1,19 @@
+{
+	"name": "mailer",
+	"version": "1.0.0",
+	"description": "E-mail sub-system",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodejs index"
+	},
+	"keywords": [
+		"e-mail",
+		"mailer"
+	],
+	"author": "Alex Gottschalk",
+	"license": "ISC",
+	"dependencies": {
+		"seneca": "^0.8.0",
+		"sendgrid": "^4.3.0"
+	}
+}
